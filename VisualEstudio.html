@@ -1,14 +1,51 @@
-<?p
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Monos que escriben</title>
 </head>
 <body>
-    
+    <h1 align="center">MONOS ESCRITORES</h1>
+    <form>
+        <fieldset>
+            <legend>Ingrese los datos necesarios</legend>
+            <label>Ingrese las palabras:
+                <input type="text"/>
+            </label>
+            <br>
+            <br>
+            <label for="Modo">¿Qué modo de texto requiere?
+                <select>
+                    <optgroup label="Modo">
+                        <option value="MNormal">Normal</option>
+                        <option value="MPalabras">Palabras</option>
+                        <option value="MOrden">Orden</option>
+                    </optgroup>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="Modo">Zona Horaria de su preferencia
+                <select>
+                    <optgroup label="ZonaHoraria">
+                        <option value="CDMX">CDMX</option>
+                        <option value="NewYork">New York</option>
+                        <option value="Berlín">Berlín</option>
+                    </optgroup>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type="submit"/>
+            </label>
+            <label>
+                <input type="reset"/>
+            </label>
+        </fieldset>
+    </form>
 </body>
 </html>
