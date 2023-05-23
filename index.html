@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monos</title>
+</head>
+<body>
+ <center><h1>Taller de escritura de monos</h1></center>
+    <form align="center" method="post" action="./ver2.php" target="_self">
+        <fieldset>
+            <legend> Actividad de los changuitos </legend>
+
+                <label for="frase">Introduce la frase:<br>
+                    <input name="frase" id="frase" type="text"required="on">
+                </label>
+
+                <br><br>
+
+                <label for="modo">Elije el modo:<br>
+                   <select id="op" name="op" required="on">
+                       <optgroup>
+                          <option value="caso1">Frase</option>
+                          <option value="caso2">Palabra por palabra</option>
+                          <option value="caso3">Frase desordenada</option>
+                       </optgroup>
+                   </select>
+                </label>
+
+                <br><br>
+
+<label for="modo">Elije la zona horaria:<br>
+                   <select id="option" name="option" required="on">
+                       <optgroup>
+                          <option value="caso11">México</option>
+                          <option value="caso22">EUA</option>
+                          <option value="caso33">Vancouver</option>
+                       </optgroup>
+                   </select>
+                </label>
+
+<br><br>
+
+                <button type="submit" id="envio">Enviar</button>
+                <button type="reset">Borrar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
